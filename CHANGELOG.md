@@ -16,6 +16,20 @@ All notable changes to the No More Mondays Claude OS skills and handbook. Dates 
 - Student Feedback skill routes pitch submissions to Corey Haines `cold-email` as the primary feedback lens.
 - Added Skill Creator (Anthropic gallery skill) as the 7th starter skill, installed via the Browse path to teach a second install pattern.
 
+## 2026-04-14 (v1.5)
+
+### Changed (repo sync with Notion handbook page)
+- **`handbook/role-project-template.md` section 5** simplified to match the Notion handbook. Removed the "What is the accelerator" prompt, the modules note, and the FAQ bullet. Replaced with a pre-filled paragraph about the Inner Circle UGC Accelerator and one fill-in bullet for common student journeys. The full module list stays in `course-modules-nmm.md`.
+- **`handbook/role-project-template.md` section 6** renamed from "Your voice (the structural rules)" to "Your voice rules". Removed the verbose preamble about team baseline vs. personal voice. Now reads just "Fill in the rules below." above the existing bullet list. Matches the Notion handbook.
+- **`onboarding/nmm-os-setup/SKILL.md` Phase 2 step 2** removed the stale parenthetical "(skip section 9, that goes somewhere else)". Section 9 no longer exists in the template.
+- **`onboarding/nmm-os-setup/SKILL.md` Phase 2 step 4** rewritten. Previously told users to download the two Knowledge files live during the session. Now tells users to drag the pre-downloaded files from their Claude OS folder into Project Knowledge. Aligns with the new Step 2 pre-work timing in the Notion handbook (files are downloaded as pre-work, dragged into the Project during live training).
+- **`onboarding/nmm-os-setup/SKILL.md` Phase 2 failure branch** updated. Previously told users to "add 3 more voice examples" if the Role Project was thin. Voice examples are no longer in the Role Project template (they live in the `voice-samples-nmm-team.md` Knowledge file). Failure branch now points at section 6 voice rules and section 7 principles.
+- **`onboarding/nmm-os-setup/SKILL.md` Phase 4 heading** updated from "Install the six starter skills" to "Install the seven starter skills plus Skill Creator". The actual count is 7 Upload skills + Skill Creator (Browse) = 8 total.
+- **`onboarding/nmm-os-setup/SKILL.md` Phase 4 body** updated from "The first six follow the same Upload pattern. The seventh (Skill Creator)..." to "The first seven follow the same Upload pattern. The eighth (Skill Creator)..." to match the corrected count.
+
+### Not changed (intentional)
+- Em dashes in SKILL.md and handbook files are not cleaned up in this pass. They violate the house voice rule but are in model-facing instructions, not user-facing output. Planned for a dedicated follow-up pass.
+
 ## 2026-04-14 (v1.4)
 
 ### Added

@@ -53,21 +53,13 @@ Paste real links. Claude needs to reach these via the connectors you will instal
 
 ## 5. The course or product you support
 
-- **What is the accelerator** in 2 sentences (as if explaining to a new student):
-- **Modules:** the full module list lives in a separate file (`course-modules-nmm.md`) that you upload to Project Knowledge. Do not list modules here. Just confirm in this section: "Course modules file uploaded to Knowledge: yes / no". The Student Reply skill reads the modules file directly.
-- **Common student journeys and where they get stuck:**
-  1.
-  2.
-  3.
-- **Link to the FAQ in Notion:**
+The Inner Circle UGC Accelerator is a high-touch coaching program that helps creators monetize content creation as a UGC creator without needing a large following. 3 months, 29 modules across 3 phases: UGC Foundation (Month 1), Automation System OS (Month 2), Winning Strategy OS (Month 3). The full module list lives in the `course-modules-nmm.md` Knowledge file you download at the end of this step.
 
-## 6. Your voice (the structural rules)
+- **3 to 5 common student journeys and where they get stuck (fill this in based on your own experience):**
 
-This section is about the structural rules of your voice (formality, do/don't lists, length, opening and closing patterns). The actual sample messages live in a separate file in Project Knowledge, NOT here.
+## 6. Your voice rules
 
-**For the message samples themselves:** in week 1, you use the team baseline file (`voice-samples-nmm-team.md` from the handbook). In week 2 or later, when you are ready to layer on your personal voice, you create your own `voice-samples-[your-name].md` file from the Voice Samples Template in the handbook and upload it to Project Knowledge. The Student Reply and Student Feedback skills will prefer your personal file over the team baseline once it is present.
-
-This section just covers the rules:
+Fill in the rules below.
 
 **6a. Words and phrases you use often:**
 

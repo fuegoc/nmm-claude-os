@@ -55,9 +55,9 @@ Wait for confirmation.
 Walk them through this sequence:
 
 1. "Open Claude Desktop. In the left sidebar, click **Projects**. Click **New Project**. Name it something simple like `[Your Name]'s Claude OS`."
-2. "Once the project is open, find the **Project Instructions** area (sometimes labeled 'Custom Instructions'). Open your filled-in Role Project template in your other window. Copy **sections 1 through 8 only** (skip section 9, that goes somewhere else). Paste them into the Project Instructions. Save."
-3. "Now scroll down to the **Project Knowledge** area inside the same project. This is where reference files live. We are about to download two files from the No More Mondays Claude OS handbook and drag them in here. They are the team voice baseline and the course module list. The Student Reply and Student Feedback skills need both to work properly."
-4. "Open the No More Mondays Claude OS handbook in your browser. Find the **Knowledge files to upload** section in Step 2. Click the Install link for `voice-samples-nmm-team.md`. GitHub opens the file. Click the **Download raw file** icon in the file toolbar. The file downloads to your Downloads folder. Drag the downloaded file from Downloads into the Project Knowledge area. Then do the exact same thing for `course-modules-nmm.md`. You should end up with both files showing in Project Knowledge."
+2. "Once the project is open, find the **Project Instructions** area (sometimes labeled 'Custom Instructions'). Open your filled-in Role Project template in your other window. Copy **sections 1 through 8**. Paste them into the Project Instructions. Save."
+3. "Now scroll down to the **Project Knowledge** area inside the same project. This is where reference files live."
+4. "You should already have two files in your **Claude OS folder** (from pre-work Step 1, sub-step 2): `voice-samples-nmm-team.md` and `course-modules-nmm.md`. Drag both files from your Claude OS folder into the Project Knowledge area. If you somehow do not have them, open the No More Mondays Claude OS handbook now, find the **Knowledge files to upload** section in Step 2, click each Install link, download the files, then drag them in."
 5. "Note: in the future, if you want the skills to draft in YOUR personal voice instead of the team baseline, you can add your own `voice-samples-[your-name].md` file to Project Knowledge alongside the team file. The skills will prefer your personal file when present. There is a Voice Samples Template sub-page in the handbook for when you are ready. Do not worry about this today. Today the team baseline is what you want."
 6. "Tell me when you have all three things in place: Project Instructions filled, team voice file uploaded to Knowledge, course modules file uploaded to Knowledge."
 
@@ -69,7 +69,7 @@ Wait. When they confirm, run the **verification gate**:
 
 Read their response. If the answer is vague or generic ("you would say no to distractions"), push back:
 
-> That response is too generic, which means your Role Project is thin. Specifically, section 6 (voice) and section 7 (principles) probably need more detail. Go back to your filled-in template, add 3 more voice examples and 2 more principle rules, paste the updated version into Project Instructions, then try the test again.
+> That response is too generic, which means your Role Project is thin. Specifically, section 6 (voice rules) and section 7 (principles) probably need more detail. Go back to your filled-in template, add more voice rules to section 6 and more principle rules to section 7, paste the updated version into Project Instructions, then try the test again.
 
 If the answer is specific and sounds like them, acknowledge ("That matches you. Moving on.") and proceed.
 
@@ -115,9 +115,9 @@ Wait. Proceed when ready. Test query: *"List the Airtable bases I can see."*
 
 Do not hold the whole session hostage to one broken connector.
 
-### Phase 4: Install the six starter skills (10 minutes)
+### Phase 4: Install the seven starter skills plus Skill Creator (10 minutes)
 
-Install skills in this order. The first six follow the same Upload pattern. The seventh (Skill Creator) uses the Browse gallery path, which teaches a second install pattern.
+Install skills in this order. The first seven follow the same Upload pattern. The eighth (Skill Creator) uses the Browse gallery path, which teaches a second install pattern.
 
 1. **Morning Brief** (universal — everyone uses this, so it's first)
 2. **Student Reply** (highest daily-use for VAs)
