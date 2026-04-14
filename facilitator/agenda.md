@@ -51,7 +51,7 @@ Let the difference speak. Say one line: *"That is the difference between how you
 
 Screen-share the Notion handbook page so they see it while you explain.
 
-## 0:12–0:17 — Install your first skill: `claude-os-setup`
+## 0:12–0:17 — Install your first skill: `nmm-os-setup`
 
 **This is the pedagogically critical 5 minutes.** You are not teaching them the onboarding skill. You are teaching them *how to install a skill*, by having them install the skill that will install everything else.
 

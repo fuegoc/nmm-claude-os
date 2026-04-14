@@ -29,7 +29,7 @@ For the 7th starter skill (Skill Creator from Anthropic), the path is different:
 ```
 claude-os/
 ├── onboarding/
-│   └── claude-os-setup/          start here: the guided setup coach
+│   └── nmm-os-setup/             start here: the guided setup coach
 ├── skills/
 │   ├── morning-brief/            daily priorities from Slack + Notion
 │   ├── student-reply/            FAQ-powered replies in your voice

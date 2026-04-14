@@ -1,5 +1,5 @@
 ---
-name: claude-os-setup
+name: nmm-os-setup
 description: Guided setup coach for the No More Mondays Claude OS. Walks the user step by step through building their Role Project, installing every connector (Gmail, Google Calendar, Notion, Slack, Airtable), installing all seven starter skills, running a first practice task, and writing their first Wins Log entry. Invoke with "setup my claude os" or "start claude os onboarding".
 ---
 

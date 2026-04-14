@@ -6,7 +6,7 @@ All notable changes to the No More Mondays Claude OS skills and handbook. Dates 
 
 ### Added
 - Initial scaffold of the `claude-os` repository.
-- Onboarding skill: `claude-os-setup`.
+- Onboarding skill: `nmm-os-setup` (originally named `claude-os-setup`, renamed in v1.3 due to Anthropic's reserved-word filter).
 - Starter skills: `morning-brief`, `student-reply`, `student-feedback`, `feedback-patterns`, `database-builder`, `airtable-query`, `delegation-to-skill`.
 - Handbook templates: `role-project-template.md`, `connectors-checklist.md`, `starter-skills-reference.md`, `wins-log-template.md`.
 - Facilitator documents: `agenda.md`, `prework.md`, `hook-demo-script.md`.
@@ -15,6 +15,11 @@ All notable changes to the No More Mondays Claude OS skills and handbook. Dates 
 - Corey Haines marketing skills forked into `skills/community/marketing-skills/` (cold-email, copywriting, copy-editing, ad-creative, marketing-psychology, customer-research, product-marketing-context) with attribution in `ATTRIBUTION.md`.
 - Student Feedback skill routes pitch submissions to Corey Haines `cold-email` as the primary feedback lens.
 - Added Skill Creator (Anthropic gallery skill) as the 7th starter skill, installed via the Browse path to teach a second install pattern.
+
+## 2026-04-14 (v1.3)
+
+### Fixed
+- **Renamed onboarding skill from `claude-os-setup` to `nmm-os-setup`.** Anthropic's Claude Desktop Upload a skill flow rejects any skill whose `name:` field contains the reserved word "claude". Discovered when Albert tried to install the onboarding skill during a dry-run and got the error "Skill name in SKILL.md cannot contain the reserved word 'claude'." The skill folder was renamed via `git mv` to preserve history. All references across README, CHANGELOG, facilitator agenda, and the Notion handbook install link were updated. The user-facing trigger phrase ("setup my claude os") is unchanged because trigger phrases live in the description, not the name field.
 
 ## 2026-04-14 (v1.2)
 
