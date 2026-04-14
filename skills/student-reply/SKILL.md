@@ -16,11 +16,22 @@ Every time a team member needs to answer a student question and has an unanswere
 ## What you need
 
 Read from the user's Role Project:
-- **Section 5:** the course/product context — module list, common student journeys
-- **Section 6:** the voice calibration — voice examples, words to use, words to never use, length, emoji rule, formality
+- **Section 5:** the course/product context — high-level course summary
+- **Section 6:** the voice rules — words to use, words to never use, length, emoji rule, formality
 - **Section 7:** escalation rules — what the user is NOT allowed to answer solo
 
-**If section 6 of the Role Project is missing or thin** (fewer than 3 real voice examples, or no clear do/don't list), fall back to the No More Mondays **house voice** defined in `handbook/house-voice-nmm.md` in the claude-os repo. The house voice is extracted from 10 real messages Albert wrote to students and captures the team baseline: direct, caring, firm, numbered structure for longer feedback, no em dashes ever, no "cinematic" or "UGC" jargon in student-facing writing, real numbers when explaining why, "I got you" style warmth in closings. Match the house voice until the user supplies their own.
+You also need the **course module list** and the **voice reference** from Project Knowledge. Look for these files via the Notion connector or the Project Knowledge area:
+
+**Course module reference:**
+- `course-modules-nmm.md` in Project Knowledge. Use it to identify which module the student is on or stuck on so you can point them to the right resource.
+
+**Voice reference (preference order, use the first one you find):**
+1. **`voice-samples-[name].md` in Project Knowledge** (any file matching this pattern that is NOT the team file). This is the user's personal voice file. If present, use it as the primary reference for tone, vocabulary, structure, and length. Pattern-match against the messages in this file when drafting.
+2. **`voice-samples-nmm-team.md` in Project Knowledge.** The No More Mondays team voice baseline (Coach Albert's 10 reference messages). Use it when no personal voice file exists, OR as a sanity check on top of a personal file (the team file establishes the floor for what is acceptable NMM voice; the personal file establishes the user's specific style on top of that floor).
+3. **Section 6 of the Role Project.** Structural rules that always apply (formality, do/don't lists, opening and closing patterns).
+4. **`handbook/house-voice-nmm.md` in the claude-os repo.** Last-resort fallback if nothing in Project Knowledge is available.
+
+When both a personal voice file AND the team file are present, weight the personal file at roughly 70% and the team file at roughly 30%. The team file is the safety net, not the primary signal.
 
 You also need the **NMM FAQ database in Notion** via the Notion connector. The canonical FAQ lives at:
 

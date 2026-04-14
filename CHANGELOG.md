@@ -16,6 +16,22 @@ All notable changes to the No More Mondays Claude OS skills and handbook. Dates 
 - Student Feedback skill routes pitch submissions to Corey Haines `cold-email` as the primary feedback lens.
 - Added Skill Creator (Anthropic gallery skill) as the 7th starter skill, installed via the Browse path to teach a second install pattern.
 
+## 2026-04-14 (v1.4)
+
+### Added
+- **`handbook/voice-samples-nmm-team.md`** — the team voice baseline. Coach Albert's 10 reference messages with a friendly header explaining when to use it and when to layer on personal voice. This is the file every team member uploads to Project Knowledge in week 1.
+- **`handbook/voice-samples-template.md`** — the personal voice template. Empty slots for 10 messages plus a voice rules section. Team members fill this in (or duplicate the matching Notion sub-page) when they want their drafts to sound like them specifically instead of the team baseline. Recommended starting point for week 2 or later.
+- **`handbook/course-modules-nmm.md`** — the Inner Circle UGC Accelerator module list (Month 1 through Month 3, 29 modules total) extracted into a standalone file. Lives in Project Knowledge so the Student Reply skill can search it via retrieval instead of bloating Project Instructions.
+
+### Changed
+- **Student Reply and Student Feedback skills** updated with a 4-tier voice fallback chain: personal voice file in Project Knowledge first, then team baseline file in Project Knowledge, then Role Project section 6, then the repo `house-voice-nmm.md` as last resort. When both personal and team files are present, the personal file is weighted at roughly 70% and the team file at roughly 30% (team file as safety net). Both skills also now look for `course-modules-nmm.md` in Project Knowledge.
+- **Onboarding skill (`nmm-os-setup`) Phase 2** rewritten. New flow: paste sections 1-8 of Role Project into Project Instructions, then download `voice-samples-nmm-team.md` and `course-modules-nmm.md` from the handbook and drag both into Project Knowledge. Mentions the personal voice upgrade path for week 2 without making it a day-1 task.
+- **`handbook/role-project-template.md`** sections 5 and 6 updated. Section 5 no longer asks users to inline the module list (it lives in `course-modules-nmm.md`). Section 6 is now structural rules only, not message samples (the samples live in `voice-samples-nmm-team.md` for week 1, and in `voice-samples-[name].md` for week 2+).
+
+### Rationale
+- Project Instructions has a character cap and gets loaded into every chat. Stuffing 10 voice samples plus the full course module list into Instructions hits the cap and bloats every chat with content that is only relevant to ~30% of skill invocations. Project Knowledge is the right home for reference content because Claude retrieves it when relevant instead of loading it on every turn.
+- Phased rollout: week 1 every team member uses the team voice baseline file (zero friction setup, drafts in Albert voice). Week 2+ team members can add their personal voice file using the template, and the skill fallback chain automatically prefers the personal file when present. This avoids asking VAs to gather 5-10 of their own messages on day 1 (too much homework) while keeping all the plumbing ready for the day they want to upgrade.
+
 ## 2026-04-14 (v1.3)
 
 ### Fixed

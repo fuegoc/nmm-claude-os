@@ -42,10 +42,21 @@ Every time a team member needs to review a student submission. Submissions inclu
 
 Read from the user's Role Project:
 - **Section 5:** the course and module list, so you can point the student to the right resource
-- **Section 6:** the voice calibration — this is what every piece of feedback gets rewritten through
+- **Section 6:** the voice rules
 - **Section 7:** what the user is a stickler about (this becomes a priority filter on the feedback)
 
-**Fallback:** if section 6 is missing or thin, use `handbook/house-voice-nmm.md` as the voice baseline. The house voice is especially strong for feedback specifically because most of the 10 reference samples ARE feedback messages. Match the house voice patterns: numbered structural breakdowns for longer feedback, direct pivots with "however" or "but" after acknowledging what's working, specific examples for every point, "I got you" or "the bones of your ideas are solid" style warmth in closings.
+You also need the **course module list** and the **voice reference** from Project Knowledge. Look for these files:
+
+**Course module reference:**
+- `course-modules-nmm.md` in Project Knowledge. Use it to point feedback at the right module.
+
+**Voice reference (preference order, use the first one you find):**
+1. **`voice-samples-[name].md` in Project Knowledge** (the user's personal voice file). If present, use it as the primary reference for tone, structure, vocabulary, and length when rewriting feedback in their voice. Pattern-match against the messages especially when the user has feedback-style messages in there.
+2. **`voice-samples-nmm-team.md` in Project Knowledge.** The No More Mondays team voice baseline (Coach Albert's 10 reference messages). Use it when no personal file exists, OR as a sanity check on top of a personal file. The team file is especially strong for feedback specifically because 7 of the 10 messages in it ARE feedback messages.
+3. **Section 6 of the Role Project.** Structural rules.
+4. **`handbook/house-voice-nmm.md` in the claude-os repo.** Last-resort fallback.
+
+When both a personal voice file AND the team file are present, weight the personal file at roughly 70% and the team file at roughly 30%. Match the team file's patterns: numbered structural breakdowns for longer feedback, direct pivots with "however" or "but" after acknowledging what's working, specific examples for every point, "I got you" or "the bones of your ideas are solid" style warmth in closings.
 
 ## What to do
 

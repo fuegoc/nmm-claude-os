@@ -54,44 +54,24 @@ Paste real links. Claude needs to reach these via the connectors you will instal
 ## 5. The course or product you support
 
 - **What is the accelerator** in 2 sentences (as if explaining to a new student):
-- **Modules:** list each one with a one-line description so Claude can route replies correctly.
-  1.
-  2.
-  3.
+- **Modules:** the full module list lives in a separate file (`course-modules-nmm.md`) that you upload to Project Knowledge. Do not list modules here. Just confirm in this section: "Course modules file uploaded to Knowledge: yes / no". The Student Reply skill reads the modules file directly.
 - **Common student journeys and where they get stuck:**
   1.
   2.
   3.
 - **Link to the FAQ in Notion:**
 
-## 6. Your voice (the calibration — most critical section)
+## 6. Your voice (the structural rules)
 
-This is what the Student Reply and Student Feedback skills train against. Do not skimp.
+This section is about the structural rules of your voice (formality, do/don't lists, length, opening and closing patterns). The actual sample messages live in a separate file in Project Knowledge, NOT here.
 
-**6a. Five to ten real messages you have written.** Paste them verbatim. Mix of contexts:
-- One student reply answering a common question
-- One student reply handling a hard case or redirect
-- One Slack message to the team
-- One feedback note on student work
-- One "no, that's out of scope" response
-- Add more if you have them
+**For the message samples themselves:** in week 1, you use the team baseline file (`voice-samples-nmm-team.md` from the handbook). In week 2 or later, when you are ready to layer on your personal voice, you create your own `voice-samples-[your-name].md` file from the Voice Samples Template in the handbook and upload it to Project Knowledge. The Student Reply and Student Feedback skills will prefer your personal file over the team baseline once it is present.
 
-```
-Message 1:
+This section just covers the rules:
 
-Message 2:
+**6a. Words and phrases you use often:**
 
-Message 3:
-
-Message 4:
-
-Message 5:
-
-```
-
-**6b. Words and phrases you use often:**
-
-**6c. Words and phrases you never use.** (For Albert and team: no em dashes, ever. Add yours.)
+**6b. Words and phrases you never use.** (For Albert and team: no em dashes, ever. Add yours.)
 
 **6d. Formality level on a 1 to 10 scale:** (1 is lowercase Slack energy, 10 is formal email)
 

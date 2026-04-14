@@ -50,14 +50,16 @@ Explain, in your own voice:
 
 Wait for confirmation.
 
-### Phase 2: Build the Role Project (5 to 8 minutes)
+### Phase 2: Build the Role Project (8 to 12 minutes)
 
 Walk them through this sequence:
 
-1. "Open Claude Desktop. In the left sidebar, click **Projects**. Click **New Project**. Name it something simple like `[Your Name] — Claude OS`."
-2. "Once the project is open, find the **Project Instructions** area (sometimes labeled 'Custom Instructions'). Open your filled-in Role Project template in your other window. Copy everything from section 1 through section 8. Paste it into the Project Instructions. Save."
-3. "In the **Project Knowledge** area, upload any reference files you listed in section 4: brand voice guide, course outline, style guide, anything Claude should have at hand."
-4. "Tell me when you have done that."
+1. "Open Claude Desktop. In the left sidebar, click **Projects**. Click **New Project**. Name it something simple like `[Your Name]'s Claude OS`."
+2. "Once the project is open, find the **Project Instructions** area (sometimes labeled 'Custom Instructions'). Open your filled-in Role Project template in your other window. Copy **sections 1 through 8 only** (skip section 9, that goes somewhere else). Paste them into the Project Instructions. Save."
+3. "Now scroll down to the **Project Knowledge** area inside the same project. This is where reference files live. We are about to download two files from the No More Mondays Claude OS handbook and drag them in here. They are the team voice baseline and the course module list. The Student Reply and Student Feedback skills need both to work properly."
+4. "Open the No More Mondays Claude OS handbook in your browser. Find the **Knowledge files to upload** section in Step 2. Click the Install link for `voice-samples-nmm-team.md`. GitHub opens the file. Click the **Download raw file** icon in the file toolbar. The file downloads to your Downloads folder. Drag the downloaded file from Downloads into the Project Knowledge area. Then do the exact same thing for `course-modules-nmm.md`. You should end up with both files showing in Project Knowledge."
+5. "Note: in the future, if you want the skills to draft in YOUR personal voice instead of the team baseline, you can add your own `voice-samples-[your-name].md` file to Project Knowledge alongside the team file. The skills will prefer your personal file when present. There is a Voice Samples Template sub-page in the handbook for when you are ready. Do not worry about this today. Today the team baseline is what you want."
+6. "Tell me when you have all three things in place: Project Instructions filled, team voice file uploaded to Knowledge, course modules file uploaded to Knowledge."
 
 Wait. When they confirm, run the **verification gate**:
 
