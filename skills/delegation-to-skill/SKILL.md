@@ -47,7 +47,7 @@ Ask these questions, one at a time. Wait for each answer before moving on. Do no
 7. **"What would you never want this skill to do? What's a mistake that would make you regret building it?"**
    This becomes the "Do not" section.
 
-8. **"Does this task need any connectors? Slack, Notion, Gmail, Drive, Airtable? Any other tool?"**
+8. **"Does this task need any connectors? Slack, Notion, Gmail, Google Calendar, Airtable? Any other tool?"**
    This determines what the generated skill's "What you need" section includes.
 
 9. **"One last thing: what should the skill be named, and what phrase should trigger it?"**

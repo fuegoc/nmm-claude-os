@@ -24,7 +24,7 @@ This is your script. Read it before the session. Do not read it verbatim during 
 
 **What to say (paraphrase, do not read):**
 
-> Welcome. Before we touch anything, here is what we are doing today. You have all been using Claude like Google: ask a question, get an answer, forget about it. Today we are turning Claude into a teammate who remembers everything about your role, is connected to all your tools, and gets sharper every week. By the end of this hour your Claude Desktop will be connected to Gmail, Drive, Notion, Slack, and Airtable, and it will have 6 skills installed — including a Morning Brief that scans your Slack and gives you your priorities every day, and a Student Reply skill trained on your voice that uses our FAQ. Live, in this session, not as homework.
+> Welcome. Before we touch anything, here is what we are doing today. You have all been using Claude like Google: ask a question, get an answer, forget about it. Today we are turning Claude into a teammate who remembers everything about your role, is connected to all your tools, and gets sharper every week. By the end of this hour your Claude Desktop will be connected to Gmail, Google Calendar, Notion, Slack, and Airtable, and it will have 6 skills installed — including a Morning Brief that scans your Slack and gives you your priorities every day, and a Student Reply skill trained on your voice that uses our FAQ. Live, in this session, not as homework.
 
 **The hook demo.** Screen-share your Claude Desktop. Show two chats side by side:
 

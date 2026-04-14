@@ -21,7 +21,7 @@ Here is the full checklist. Do it in order.
 Open one browser tab for each of these and make sure you are signed in:
 
 - [ ] Gmail
-- [ ] Google Drive
+- [ ] Google Calendar
 - [ ] Notion (the No More Mondays workspace)
 - [ ] Slack (the No More Mondays internal workspace)
 - [ ] Airtable (with access to the bases you use for work)
@@ -76,7 +76,7 @@ This is your reference during the session. It has install buttons for every skil
 When you're done with all 5 steps, you should have:
 
 - Claude Desktop installed and signed in
-- Logged-in browser tabs for Gmail, Drive, Notion, Slack, Airtable
+- Logged-in browser tabs for Gmail, Google Calendar, Notion, Slack, Airtable
 - An Airtable Personal Access Token saved in your password manager
 - A filled-in "My Role Project" Notion page with every section complete, especially section 6
 - The handbook Notion page open in a browser tab

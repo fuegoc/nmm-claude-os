@@ -1,13 +1,13 @@
 # No More Mondays Claude OS
 
-A curated Claude Desktop skill library for the No More Mondays team. Built to turn casual Claude users into confident operators in one hour, with a personal knowledge base that grows, a skill library that compounds, and connections to the tools we actually use (Gmail, Slack, Google Drive, Notion, Airtable).
+A curated Claude Desktop skill library for the No More Mondays team. Built to turn casual Claude users into confident operators in one hour, with a personal knowledge base that grows, a skill library that compounds, and connections to the tools we actually use (Gmail, Google Calendar, Notion, Slack, Airtable).
 
 ## The model
 
 Three shelves:
 
 1. **Knowledge** — your Role Project in Claude Desktop. What Claude knows about you.
-2. **Powers** — Connectors (live links to Gmail, Slack, Drive, Notion, Airtable) + Skills (reusable recipes).
+2. **Powers** — Connectors (live links to Gmail, Google Calendar, Notion, Slack, Airtable) + Skills (reusable recipes).
 3. **Reflection** — the Wins Log. One line at end of day. How you get sharper every week.
 
 Two vocabulary words: **Connector** and **Skill**. That is all you need.

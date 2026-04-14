@@ -15,3 +15,13 @@ All notable changes to the No More Mondays Claude OS skills and handbook. Dates 
 - Corey Haines marketing skills forked into `skills/community/marketing-skills/` (cold-email, copywriting, copy-editing, ad-creative, marketing-psychology, customer-research, product-marketing-context) with attribution in `ATTRIBUTION.md`.
 - Student Feedback skill routes pitch submissions to Corey Haines `cold-email` as the primary feedback lens.
 - Added Skill Creator (Anthropic gallery skill) as the 7th starter skill, installed via the Browse path to teach a second install pattern.
+
+## 2026-04-14 (v1.2)
+
+### Changed
+- **Replaced Google Drive with Google Calendar** as connector #2. NMM workflow does not currently use Drive. Calendar is more useful for coaches and momentum coaches who run scheduled meetings throughout the day.
+- Updated handbook, README, prework, agenda, role project template, and onboarding skill to reflect the swap. Connector count stays at 5.
+
+### Expanded
+- **Morning Brief skill** is now significantly more powerful. New sources: Google Calendar (today and next 24 hours of meetings) and Gmail (priority senders, starred items, threads where the user owes a reply). Output now includes a "Today's calendar" section at the top and an "Email needing reply" section. New edge case for meetings starting in the next 30 minutes (flagged at the top of the brief). Pairs with all 4 read-write connectors (Gmail, Calendar, Slack, Notion). It is now the single most-used skill in the kit and touches every connector.
+- Student Feedback skill no longer pairs with Drive (Notion only).

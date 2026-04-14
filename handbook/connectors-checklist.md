@@ -22,11 +22,11 @@ For Airtable you will use **+ → Add custom connector** instead, because Airtab
 - **Test query:** *"How many unread emails are in my inbox right now?"*
 - **Expected result:** Claude returns a number and optionally lists the latest unread senders.
 
-### 2. Google Drive
+### 2. Google Calendar
 - [ ] Installed
-- **Path:** Customize → Connectors → + → Browse → Google Drive → Connect → sign in.
-- **Test query:** *"List the 5 most recently edited Google Docs in my Drive."*
-- **Expected result:** Claude returns a list with titles and edit dates.
+- **Path:** Customize → Connectors → + → Browse → Google Calendar → Connect → sign in.
+- **Test query:** *"What meetings do I have today and tomorrow?"*
+- **Expected result:** Claude returns a list of events with times, titles, and any attached video links.
 
 ### 3. Notion
 - [ ] Installed
@@ -41,7 +41,7 @@ For Airtable you will use **+ → Add custom connector** instead, because Airtab
 - **Expected result:** Claude returns the messages with senders and timestamps.
 - **Note:** Slack is for internal team use only. Student support happens in Discord, which is handled via copy-paste, not a connector.
 
-### 5. Airtable (custom connector — the trickiest one)
+### 5. Airtable (custom connector, the trickiest one)
 - [ ] Personal Access Token created in Airtable Builder Hub
 - [ ] Connector installed
 

@@ -1,6 +1,6 @@
 ---
 name: claude-os-setup
-description: Guided setup coach for the No More Mondays Claude OS. Walks the user step by step through building their Role Project, installing every connector (Gmail, Drive, Notion, Slack, Airtable), installing all six starter skills, running a first practice task, and writing their first Wins Log entry. Invoke with "setup my claude os" or "start claude os onboarding".
+description: Guided setup coach for the No More Mondays Claude OS. Walks the user step by step through building their Role Project, installing every connector (Gmail, Google Calendar, Notion, Slack, Airtable), installing all seven starter skills, running a first practice task, and writing their first Wins Log entry. Invoke with "setup my claude os" or "start claude os onboarding".
 ---
 
 # Claude OS Setup Coach
@@ -24,7 +24,7 @@ Walk the user through these in order. Do not let them skip ahead. Each phase has
 
 Open with this, adapted to their name if they share it:
 
-> Welcome. I am going to walk you through setting up your Claude OS. It takes about 35 to 45 minutes. When we are done you will have: a Claude Project that knows who you are, five tools connected (Gmail, Drive, Notion, Slack, Airtable), six skills installed, and your first Wins Log entry written.
+> Welcome. I am going to walk you through setting up your Claude OS. It takes about 35 to 45 minutes. When we are done you will have: a Claude Project that knows who you are, five tools connected (Gmail, Google Calendar, Notion, Slack, Airtable), seven skills installed, and your first Wins Log entry written.
 >
 > Before we start: do you have the filled-in Role Project template open in another window? It was sent to you 48 hours ago as homework. If you do not, we need to pause and fill it in before continuing — it is the foundation for everything else.
 
@@ -40,7 +40,7 @@ Explain, in your own voice:
 >
 > Shelf 1 is **Knowledge**: what Claude knows about you. That is your Role Project.
 >
-> Shelf 2 is **Powers**: what Claude can reach and what Claude can do. That is your Connectors (Gmail, Drive, Notion, Slack, Airtable) and your Skills (the six starter recipes).
+> Shelf 2 is **Powers**: what Claude can reach and what Claude can do. That is your Connectors (Gmail, Google Calendar, Notion, Slack, Airtable) and your Skills (the seven starter recipes).
 >
 > Shelf 3 is **Reflection**: how you get sharper every week. That is your Wins Log, one line a day.
 >
@@ -75,7 +75,7 @@ If the answer is specific and sounds like them, acknowledge ("That matches you. 
 
 Walk them through each connector in order. For each one, give the exact click path, wait for confirmation, then run the test query. Only move to the next connector when the current test returns a real result.
 
-**Install order and rationale:** start with Gmail (fastest, builds confidence), then Drive (same OAuth pattern), then Notion (same pattern, slightly more setup when picking workspace), then Slack (same pattern), then Airtable (hardest, custom connector with token).
+**Install order and rationale:** start with Gmail (fastest, builds confidence), then Google Calendar (same sign-in pattern, immediate value because they will see today's meetings), then Notion (same pattern, slightly more setup when picking workspace), then Slack (same pattern), then Airtable (hardest, custom connector with token).
 
 For each connector, say something like:
 
@@ -87,9 +87,9 @@ Wait. When they confirm:
 
 > Good. Test query: ask Claude in any chat, *"How many unread emails do I have?"* Tell me the number it reports.
 
-If it returns a number, acknowledge briefly and move to Drive. If it errors, diagnose with ONE question: "What error did it show?" Then apply the matching fix from the troubleshooting list in `handbook/connectors-checklist.md`. Do not offer a menu of fixes.
+If it returns a number, acknowledge briefly and move to Google Calendar. If it errors, diagnose with ONE question: "What error did it show?" Then apply the matching fix from the troubleshooting list in `handbook/connectors-checklist.md`. Do not offer a menu of fixes.
 
-Repeat for **Drive**, **Notion** (remind them to pick the No More Mondays workspace when prompted), and **Slack**.
+Repeat for **Google Calendar** (test query: "What meetings do I have today and tomorrow?"), **Notion** (remind them to pick the No More Mondays workspace when prompted), and **Slack**.
 
 For **Airtable**, the custom-connector path:
 

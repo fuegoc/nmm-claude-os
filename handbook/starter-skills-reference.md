@@ -6,17 +6,19 @@ Seven skills, paired to the connectors you just installed. Six are custom-built 
 
 ## 1. Morning Brief *(universal, daily)*
 
-**Pairs with:** Slack + Notion (Gmail optional)
+**Pairs with:** Gmail + Google Calendar + Slack + Notion
 **Trigger:** `morning brief` or `what's on my plate today`
-**What it does:** scans your priority Slack channels, flags unanswered threads and mentions, surfaces anything urgent, pulls today's Notion tasks, and returns a structured brief with four sections:
-- **Top priorities** — what needs you first
-- **Needs a reply** — threads waiting on your response
-- **Waiting on others** — things you kicked over, watch for returns
-- **Outstanding items** — anything from yesterday still open
+**What it does:** scans your priority Slack channels, your Gmail inbox for emails from priority senders, your Google Calendar for today and the next 24 hours of meetings, and your Notion tasks. Returns a structured brief with these sections:
+- **Today's calendar.** Meetings today and tomorrow morning, with times and prep notes.
+- **Top priorities.** What needs you first.
+- **Email needing reply.** Unread or starred emails from your priority senders that have not been answered.
+- **Slack threads needing a reply.** Mentions and direct questions waiting on your response.
+- **Waiting on others.** Things you kicked over, watch for returns.
+- **Outstanding from yesterday.** Anything that did not close.
 
-**When to use:** once, at the start of every workday. Turns Slack from a reactive mess into a managed queue.
+**When to use:** once, at the start of every workday. Turns a scattered inbox, calendar, and Slack into one clear picture of what matters today.
 
-**Example:** run it with no arguments. Claude uses the priority channels listed in section 4 of your Role Project automatically.
+**Example:** run it with no arguments. Claude uses your priority Slack channels, priority senders, and primary calendar from section 2 and section 4 of your Role Project automatically.
 
 ---
 
@@ -34,7 +36,7 @@ Seven skills, paired to the connectors you just installed. Six are custom-built 
 
 ## 3. Student Feedback *(coaches + VAs, on submissions)*
 
-**Pairs with:** Drive + Notion (and requires the Corey Haynes marketing skills to also be installed)
+**Pairs with:** Notion (and requires the Corey Haines marketing skills to also be installed)
 **Trigger:** paste a student submission and say `feedback`
 **What it does:** structured marketing feedback on hooks, CTAs, positioning, audience fit — delivered in your team's voice. Calls into the forked Corey Haynes skills under `skills/community/corey-haynes-marketing/` for the actual marketing patterns.
 

@@ -39,7 +39,7 @@ When you are done, you will copy the entire contents of this file into the **Pro
 
 Paste real links. Claude needs to reach these via the connectors you will install.
 
-- **Tools you touch daily:** (Gmail, Slack, Discord, Notion, Airtable, Drive, other)
+- **Tools you touch daily:** (Gmail, Google Calendar, Slack, Discord, Notion, Airtable, other)
 - **Primary Notion pages or databases:**
   - FAQ: https://www.notion.so/nomoremondays/33b9b9a6796a80309a43e7f171e68959?v=33b9b9a6796a80de9823000c5e6dbfe5
   - Course index:
@@ -48,7 +48,7 @@ Paste real links. Claude needs to reach these via the connectors you will instal
 - **Primary Airtable bases:**
 - **Slack channels you monitor:** (3 to 6 priority channels)
 - **Discord servers and channels:**
-- **Google Drive folders you reference often:**
+- **Google Calendar (which calendar Claude should read for your daily schedule):**
 - **Any other tools:**
 
 ## 5. The course or product you support
